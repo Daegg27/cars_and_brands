@@ -4,5 +4,6 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.index)
+    path('', views.index),
+    path('new/', views.add_brand)
 ]

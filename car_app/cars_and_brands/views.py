@@ -13,3 +13,8 @@ def index(request):
 
 
     return render(request, 'index.html', my_data)
+
+
+def add_brand(request):
+    
+    return render(request, 'add_brand.html')
