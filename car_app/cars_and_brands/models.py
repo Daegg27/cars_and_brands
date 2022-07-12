@@ -1,7 +1,8 @@
 from enum import unique
 from django.db import models
 
-# Create your models here.
+# Create your models here. 1, 3, 4, 5
+
 
 
 class Car_brand(models.Model):
