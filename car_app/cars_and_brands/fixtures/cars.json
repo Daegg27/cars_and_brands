@@ -1,0 +1,62 @@
+[
+    {
+        "model": "cars_and_brands.car",
+        "pk": 2,
+        "fields": {
+            "name": "Accord",
+            "brand": 1,
+            "number_of_doors": "2",
+            "engine_type": "4-cyl"
+        }
+    },
+    {
+        "model": "cars_and_brands.car",
+        "pk": 3,
+        "fields": {
+            "name": "Focus",
+            "brand": 3,
+            "number_of_doors": "4",
+            "engine_type": "4-cyl"
+        }
+    },
+    {
+        "model": "cars_and_brands.car",
+        "pk": 4,
+        "fields": {
+            "name": "Mustang",
+            "brand": 3,
+            "number_of_doors": "2",
+            "engine_type": "V6"
+        }
+    },
+    {
+        "model": "cars_and_brands.car",
+        "pk": 5,
+        "fields": {
+            "name": "Model-S",
+            "brand": 6,
+            "number_of_doors": "2",
+            "engine_type": "electric"
+        }
+    },
+    {
+        "model": "cars_and_brands.car",
+        "pk": 6,
+        "fields": {
+            "name": "Camaro",
+            "brand": 4,
+            "number_of_doors": "2",
+            "engine_type": "V-6"
+        }
+    },
+    {
+        "model": "cars_and_brands.car",
+        "pk": 7,
+        "fields": {
+            "name": "Tundra",
+            "brand": 5,
+            "number_of_doors": "4",
+            "engine_type": "V6"
+        }
+    }
+]
