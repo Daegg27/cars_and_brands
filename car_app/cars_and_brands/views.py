@@ -52,12 +52,21 @@ def edit_brand(request, id):
 
     if request.method == 'POST':
         body = json.loads(request.body)
-        details = body['details']
-        print(details)
+        new_details = body['details']
+
+        selected_brand = Car_brand.objects.get(id = id) # Searches for the car brand, and then gets changed on lines 59 & 60
+
+        selected_brand.details = new_details
+        selected_brand.save()
+
         return JsonResponse(body)
     else:
+
+        brand = Car_brand.objects.get(id = id) # Allows us to grab the name
+
         my_data = {
-            'id': id
+            'id': id,
+            'brand': brand.name
         }
         
         return render(request, 'edit_brand.html', my_data)
